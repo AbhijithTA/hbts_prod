@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Hero />} />
-        {/* <Route path="/component" element={<PopularActivityComponent />} /> */}
+        <Route path="/component" element={<PopularActivityComponent />} />
       </Routes>
     </Router>
    </>
